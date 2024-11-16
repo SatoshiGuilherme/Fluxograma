@@ -1,4 +1,4 @@
 # Fluxograma
 
-1º Aula no SENAI de programação em python \n
-tema: apresentação aos metodos de planejamento e do github
+•  1º Aula no SENAI de programação em python 
+•  tema: apresentação aos metodos de planejamento e do github
