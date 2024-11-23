@@ -1,0 +1,82 @@
+#1
+print("hello world \n")
+
+#2
+boll = True
+atv = type(boll)
+print(atv, "\n")
+
+#3
+print("coloque dois valores 'quebrados', como por exemplo: 3.1 \n")
+numero1 = float(input ("valor do primeiro nota: "))
+numero2 = float(input ("valor do segundo nota: "))
+
+mult = numero1 * numero2
+
+print(mult, "\n")
+
+#4
+number1 = int(input("digite aqui o valor a ser divido: "))
+number2 = int(input("digite aqui o valor a dividir: "))
+
+div = numero1 / numero2
+
+print(div, "\n")
+
+#5
+num1 = int (input ("valor do primeiro numero: "))
+num2 = int (input ("valor do segundo numero: "))
+
+sub = num1 - num2
+
+print(sub, "\n")
+
+#6
+print("escreva dois numeros que tenham um resultado inteiro \n")
+ichi = int(input("1º valor é: "))
+ni = int(input("2º valor é: "))
+
+div_int = ichi / ni
+
+print(div_int, "\n") 
+
+#7
+one = 4.3
+two = 7.2
+three = 9.2
+four = 1.4
+
+multi = one * two * three * four
+print("A seguir, multiplicação de 4 numeros pré definidos")
+print(multi, "\n")
+
+#8
+var = 22
+dobro = var * 2
+print("a seguir o dobro de 22:")
+print(dobro)
+
+#9
+print("Bem vindo a calculadora de teste, essa calculadora suporta apenas 2 digitos por equação")
+print("capaz de fazer, adição, subtração, multiplicação e divisão")
+
+uno = int(input("digite o primeiro numero:"))
+dos = int(input("digite o segundo numero:"))
+
+result_som = uno + dos
+result_sub = uno - dos
+result_div = uno / dos
+result_mult = uno * dos
+
+print("a soma = ", result_som)
+print("a subtração = ", result_sub)
+print("a divisão = ", result_div)
+print("a multiplicação = ", result_mult)
+
+#10
+print("bem vindo, para cadastro insira sua informações abaixo")
+nome = input("Insira seu nome completo: ")
+email = input("Digite seu email: ")
+print("digite sua senha \n ps: usar não usar letras maiusculas")
+senha = input(":")
+print(nome, "\n", email, "bem vindo ao nosso site :D")
